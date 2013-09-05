@@ -1,0 +1,10 @@
+<template name="stories">
+	<a href="/newstory">New Story</a>
+
+	{{#each stories}}
+		<div class="story">
+			<h1>{{title}}</h1>
+			<small>{{author}}</small>
+		</div>
+	{{/each}}
+</template>
